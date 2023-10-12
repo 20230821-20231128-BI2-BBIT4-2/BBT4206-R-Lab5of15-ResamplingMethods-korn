@@ -481,6 +481,8 @@ new_data$`Week of the month (first week, second, third, fourth or fifth week` <-
 new_data$`Day of the week (Monday to Friday)` <-
   as.factor(new_data$`Day of the week (Monday to Friday)`)
 
+View(new_data)
+
 # We now use the model to predict the output based on the unseen new data:
 predictions_lm_new_data <-
   predict(demand_forecasting_dataset_model_lm, new_data)
@@ -542,6 +544,7 @@ predictions_lm <- predict(churn_dateset_model_lm, churn_dateset_test[, -13])
 ### 2.c. View the RMSE and the predicted values ====
 print(churn_dateset_model_lm)
 print(predictions_lm)
+View(churn_dateset_model_lm)
 
 ## 3. Classification: LDA with k-fold Cross Validation ----
 
