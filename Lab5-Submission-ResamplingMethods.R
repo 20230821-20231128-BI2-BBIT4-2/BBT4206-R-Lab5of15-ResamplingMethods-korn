@@ -106,6 +106,18 @@ summary("PimaIndiansDiabetes")
   cm1 <- table(test.predict, test_data$diabetes)
   sum(diag(cm1)) / sum(cm1)
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   ## 4. Classification: Naive Bayes with Repeated k-fold Cross Validation ----
   ### 4.a. Train an e1071::naive Bayes classifier based on the churn variable ----
   Pima_Indians_dateset_model_nb <-
