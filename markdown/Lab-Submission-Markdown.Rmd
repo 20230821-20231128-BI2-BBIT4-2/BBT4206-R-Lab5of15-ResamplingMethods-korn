@@ -1,0 +1,53 @@
+---
+title: "Business Intelligence Project"
+author: "korn"
+date: "18/10/23"
+output:
+  github_document: 
+    toc: yes
+    toc_depth: 4
+    fig_width: 6
+    fig_height: 4
+    df_print: default
+editor_options:
+  chunk_output_type: console
+---
+
+# Student Details
+
++---------------------------------------------------+---------------------------------------------+
+| **Student ID Numbers and Names of Group Members** | 1.  134644 - C - Sebastian Muramara         |
+|                                                   |                                             |
+|                                                   | 2.  136675 - C - Bernard Otieno             |
+|                                                   |                                             |
+|                                                   | 3.  131589 - C - Agnes Anyango              |
+|                                                   |                                             |
+|                                                   | 4.  131582 - C - Njeri Njuguna              |
+|                                                   |                                             |
+|                                                   | 5.  136009 - C- Sera Ndabari                |
++---------------------------------------------------+---------------------------------------------+
+| **GitHub Classroom Group Name**                   | Korn                                        |
++---------------------------------------------------+---------------------------------------------+
+| **Course Code**                                   | BBT4206                                     |
++---------------------------------------------------+---------------------------------------------+
+| **Course Name**                                   | Business Intelligence II                    |
++---------------------------------------------------+---------------------------------------------+
+| **Program**                                       | Bachelor of Business Information Technology |
++---------------------------------------------------+---------------------------------------------+
+| **Semester Duration**                             | 21^st^ August 2023 to 28^th^ November 2023  |
++---------------------------------------------------+---------------------------------------------+
+
+# Setup Chunk
+
+**Note:** the following KnitR options have been set as the global defaults: <BR> `knitr::opts_chunk$set(echo = TRUE, warning = FALSE, eval = TRUE, collapse = FALSE, tidy = TRUE)`.
+
+More KnitR options are documented here <https://bookdown.org/yihui/rmarkdown-cookbook/chunk-options.html> and here <https://yihui.org/knitr/options/>.
+
+```{r setup, include=FALSE}
+library(formatR)
+knitr::opts_chunk$set(
+  warning = FALSE,
+  collapse = FALSE
+)
+```
+## LAB 5
